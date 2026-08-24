@@ -10,7 +10,7 @@ enough (no local tools required).
 
 - Check the [AI Metrology Center](https://airc.nist.gov/metrology/) to see whether the metric (or a
   close variant) is already listed.
-- One metric or measurement method per pull request.
+- Ensure one metric or measurement method per pull request, using the detailed instructions directly below. 
 - **Public disclosure:** do not include proprietary or confidential information. Your
   submission file and all review discussion are publicly visible, and posted content
   is considered non-confidential.
@@ -20,10 +20,12 @@ enough (no local tools required).
 1. **Fork** this repository (the "Fork" button, top right).
 2. In your fork, **create one YAML file** under `submissions/`, named after your metric
    in lowercase with hyphens — for example `submissions/jailbreak-success-rate.yml`.
-   Copy the template from [SUBMISSION_FORMAT.md](SUBMISSION_FORMAT.md) and fill it in.
-3. **Open a pull request** from your fork to this repository's `main` branch. The PR
+3. Copy the template from [SUBMISSION_FORMAT.md](SUBMISSION_FORMAT.md) and fill it in.
+4. Check your submission against the [CONTENT_STANDARDS.md](CONTENT_STANDARDS.md). This 
+is the substantive criteria against which all submissions are compared.  
+5. **Open a pull request** from your fork to this repository's `main` branch. The PR
    description is pre-filled with a short checklist.
-4. That's it — maintainers are notified automatically when your PR is opened.
+6. Maintainers are notified automatically when your PR is opened.
 
 Not sure what a finished submission looks like? Two worked examples are kept open as
 pull requests — see the
@@ -57,9 +59,3 @@ pull requests — see the
   merges the pull request. Merged submissions are considered for publication on the
   AI Metrology Center in a subsequent update.
 - If a submission isn't a fit, the pull request is closed with an explanation.
-
-## Grounding
-
-Submissions must cite peer-reviewed literature or NIST resources (`references` is
-required) and point to usable implementation resources (software, datasets, or other
-online resources).
