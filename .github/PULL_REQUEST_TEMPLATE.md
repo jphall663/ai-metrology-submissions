@@ -24,6 +24,9 @@
   I understand everything posted here is public and non-confidential.
 - [ ] I will follow this pull request for review comments (GitHub email
   notifications enabled on my account).
+- [ ] I have self-checked my submission against
+  [CONTENT_STANDARDS.md](https://github.com/usnistgov/ai-metrology-submissions/blob/main/CONTENT_STANDARDS.md)
+  --- the substantive criteria reviewers apply.
 
 ## Additional context
 

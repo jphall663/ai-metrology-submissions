@@ -1,28 +1,31 @@
-## Scientific Grounding & Evidence *(where most submissions fall short)*
+# Content standards
+
+## Scientific grounding & evidence *(where most submissions fall short)*
 
 - [ ] I cite **1–2 references that are about the metric itself**, not just the general topic.
 - [ ] The references are specific and ideally peer-reviewed papers (or an official NIST resource).
 - [ ] I am **not** citing a governance framework (e.g., the AI RMF) as the metric's reference. Governance frameworks are for mapping, not grounding.
-- [ ] My implementation resources point to code **merged into an open-source repository**, not an unmerged or draft PR.
+- [ ] My implementation resources point to something usable today — released software, a published dataset, or code already merged into an open-source repository — not an unmerged or draft pull request.
 - [ ] The implementation resources actually support calculating the metric, at least indirectly.
 - [ ] I have clicked every link to confirm that none are broken, moved, or redirecting.
 
-## AI RMF Alignment & Metadata
+## AI RMF alignment & metadata
 
+- [ ] All mandatory metadata fields are filled in. See the current [`SUBMISSION_FORMAT.md`](SUBMISSION_FORMAT.md) for the mandatory metadata keys.
 - [ ] I have mapped the metric to the correct AI RMF Trustworthy Characteristic(s).
 - [ ] I have mapped the metric to the correct Lifecycle Stage(s).
-- [ ] All mandatory metadata fields are filled in, including object of study, normative assumptions, known failure modes, and computational requirements. See the current [`SUBMISSION_FORMAT.md`](SUBMISSION_FORMAT.md).
 
-## Usage Guidance & Utility
+## Usage guidance & utility
 
+- [ ] My submission is written in English. 
 - [ ] My **definition is concise**. I have removed explanation that is not needed to understand or apply the metric.
 - [ ] I provide clear, actionable guidance on how to apply and interpret the metric.
 - [ ] I state explicit scope boundaries, including where the metric does and does not apply.
-- [ ] The metric adds value beyond what is already in the catalog.
+- [ ] The metric adds value beyond what is already in the [Metrology Center](airc.nist.gov/metrology).
 
 ---
 
-## Readiness Estimate
+## Readiness estimate
 
 Count your unchecked items. These map approximately to the outcomes reviewers apply (**Accept / Revise / Reject**):
 
@@ -34,7 +37,7 @@ Count your unchecked items. These map approximately to the outcomes reviewers ap
 
 ---
 
-## Using an LLM to Help Prepare a Submission
+## Using an LLM to help prepare a submission
 
 Your own review is what matters most, and an LLM review is **not a substitute** for a careful manual self-check.
 

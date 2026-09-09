@@ -49,8 +49,9 @@ flowchart TD
 
 ## Submit a metric
 
-1. Read the [submission guide](CONTRIBUTING.md) and the
-   [submission format](SUBMISSION_FORMAT.md).
+1. Read the [submission guide](CONTRIBUTING.md), the
+   [submission format](SUBMISSION_FORMAT.md), and the
+   [content standards](CONTENT_STANDARDS.md).
 2. **Fork** this repository.
 3. In your fork, add one file `submissions/<metric-name>.yml` following the format.
 4. **Open a pull request.** Maintainers are notified automatically and will take it
